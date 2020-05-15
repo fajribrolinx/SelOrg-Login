@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8">
+    <title>BroLinx Admin</title>
+    <link rel="stylesheet" href="assets/style.css">
+  </head>
+  <body>
+    <header>
+      <div id="title">
+        <h1>SelOrg App</h1>
+      </div>
+    </header>
+    <main>
+      <div id="content">
+        <form id="login" action="#" method="post">
+          <input type="email" name="email" placeholder="Email">
+          <input type="password" name="password" placeholder="Password">
+          <p><input type="checkbox" name="remember">Remember Me</p>
+          <p>Not yet have account? <a href="#" onclick="showSignup()">Sign Up Here</a></p>
+          <button type="submit" name="login">Login</button>
+        </form>
+        <form id="signup" action="#" method="post">
+          <input type="text" name="name" placeholder="Name" required="required">
+          <input type="email" name="email" placeholder="Email">
+          <input type="password" name="passwd" placeholder="Password">
+          <input type="password" name="confpasswd" placeholder="Confirm Password">
+          <p>Already have account? <a href="#" onclick="showLogin()">Login Here</a></p>
+          <button type="submit" name="login">Sign Up</button>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <p>BroLinx &copy; 2020 - Muhammad Fajri</p>
+    </footer>
+    <script src="assets/javascript.js"></script>
+  </body>
+</html>

@@ -1,0 +1,86 @@
+@font-face {
+  font-family: 'Roboto Light';
+  src: url('../assets/Roboto-Light-webfont.woff') format('woff');
+}
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto Light', sans-serif;
+  background-color: #f2f2f2;
+}
+header, main, footer {
+  width: 400px;
+  padding: 30px;
+}
+/* header */
+header {
+  background-color: red;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  border-radius: 25px 25px 0 0;
+}
+header a:hover {
+  color: #dedede;
+}
+/* -- header -- */
+/* main */
+main {
+  background-color: white;
+  overflow: auto;
+}
+#signup {
+  display: none;
+}
+form input {
+  margin: 12px 0;
+  padding: 5px 10px;
+  display: block;
+  width: 100%;
+  font-family: inherit;
+  font-size: inherit;
+  outline: none;
+}
+form [type=checkbox] {
+  display: inline-block;
+  width: 30px;
+  margin: 0;
+  cursor: pointer;
+}
+form p {
+  margin: 10px 0;
+}
+form p a {
+  text-decoration: none;
+  color: #666;
+}
+form p a:hover {
+  text-decoration: underline;
+}
+button {
+  background-color: tomato;
+  font-family: inherit;
+  font-size: inherit;
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+button:hover {
+  background-color: #666
+}
+/* -- main -- */
+/* footer */
+footer {
+  background-color: blue;
+  color: white;
+  border-radius: 0 0 25px 25px;
+  text-align: center;
+}
+/* -- footer -- */
